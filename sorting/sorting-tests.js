@@ -8,7 +8,7 @@ module.exports = (sort) => {
 			array.push(Math.floor(Math.random() * 10000) * direction)
 		}
 		arrays.push(array);
-	}
+}
 
 	return arrays.every((arr) => {
 		const A = arr.sort();
